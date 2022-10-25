@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:fristapp/home.dart';
 import 'package:fristapp/login.dart';
+import 'package:fristapp/messenger_Screen.dart';
+import 'package:fristapp/singUp.dart';
+
 
 
 void main() {
@@ -16,7 +19,7 @@ class Myapp extends StatelessWidget {
 
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LoginScreen(),
+      home: MessengerScreen(),
     );
 
   }
