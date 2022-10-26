@@ -70,7 +70,7 @@ class LoginScreen extends StatelessWidget {
                 keyboardType: TextInputType.visiblePassword,
                 decoration: InputDecoration(
                   labelText: "Password",
-                  border: OutlineInputBorder(),
+
                   prefixIcon: Icon(
                     Icons.lock ,
 
